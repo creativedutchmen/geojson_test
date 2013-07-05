@@ -1,15 +1,18 @@
 {
-	"geometry": {
-		"coordinates": [
-		4.3782, 52.0186],
-		"type": "Point"
-	},
-	"properties": {
-		"city": "Delft",
-		"country": "Netherlands",
-		"countryCode": "NL",
-		"region": "South Holland",
-		"regionCode": "11"
-	},
-	"type": "Feature"
+	"type": "FeatureCollection",
+	"features": [{
+		"geometry": {
+			"coordinates": [
+			4.3782, 52.0186],
+			"type": "Point"
+		},
+		"properties": {
+			"city": "Delft",
+			"country": "Netherlands",
+			"countryCode": "NL",
+			"region": "South Holland",
+			"regionCode": "11"
+		},
+		"type": "Feature"
+	}]
 }
